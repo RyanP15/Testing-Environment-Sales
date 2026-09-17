@@ -1,0 +1,55 @@
+name: Bug report
+description: A number on the dashboard looks wrong, or something is broken.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for flagging it. The dashboard is at
+        https://ryanp15.github.io/Testing-Environment-Sales/
+
+        Remember all the data is synthetic — a "wrong" figure means the
+        calculation or the page is wrong, never that the underlying deal was.
+
+  - type: input
+    id: location
+    attributes:
+      label: Where did you see it?
+      description: Page and section, or a direct link.
+      placeholder: Portfolio page, "Sales leaderboard" section
+    validations:
+      required: true
+
+  - type: input
+    id: project
+    attributes:
+      label: Project ID
+      description: If it concerns one development. Leave blank if it is site-wide.
+      placeholder: GG-02
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to see?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What did you actually see?
+      description: Paste the figure as shown, and a screenshot if you have one.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: How wrong is it?
+      options:
+        - Cosmetic — looks off but the number is right
+        - Misleading — the number is wrong but the page works
+        - Broken — the page fails to load or is unusable
+    validations:
+      required: true

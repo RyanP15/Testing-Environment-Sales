@@ -8,6 +8,17 @@ workflows, branching, and Claude Code can be experimented with safely.
 > all invented. Nothing here comes from a real CRM, a real project, or a real
 > deal. Break it, delete it, force-push over it — nothing of value is at risk.
 
+## The live dashboard
+
+**https://ryanp15.github.io/Testing-Environment-Sales/**
+
+Rebuilt and republished automatically every time `main` moves. Because `main`
+is protected, that only happens when a pull request is merged — so the live
+site always reflects reviewed, tested code.
+
+See [docs/the-loop.md](docs/the-loop.md) for the full issue → branch → PR →
+deploy cycle, which is the thing this repo exists to practise.
+
 ## What's in here
 
 A small sales analytics project covering eight fictional high-rise developments
@@ -21,12 +32,19 @@ across Toronto, Vaughan, Mississauga and Pickering.
 ├── src/
 │   ├── loader.py              reads the CSVs into dicts
 │   ├── metrics.py             $/sqft, absorption, discount, days-on-market
-│   └── report.py              command-line reporting
+│   ├── report.py              command-line reporting
+│   └── build_site.py          generates the static HTML dashboard
 ├── tests/
-│   └── test_metrics.py        18 tests — maths plus data integrity checks
-└── docs/
-    ├── data_dictionary.md     every column, explained
-    └── practice-git.md        suggested exercises
+│   ├── test_metrics.py        18 tests — maths plus data integrity checks
+│   └── test_build_site.py     18 tests — formatters plus generated-site checks
+├── docs/
+│   ├── data_dictionary.md     every column, explained
+│   ├── practice-git.md        suggested git exercises
+│   └── the-loop.md            the full issue → PR → deploy cycle
+└── .github/
+    ├── workflows/ci.yml       tests + build on every PR (required to merge)
+    ├── workflows/deploy.yml   publishes to GitHub Pages on merge to main
+    └── ISSUE_TEMPLATE/        bug report and change request forms
 ```
 
 ## Running it
@@ -45,6 +63,18 @@ python3 -m src.report --by agent       # sales leaderboard
 python3 -m src.report --by exposure    # the south-facing premium
 python3 -m src.report --project GG-02  # single project, suite by suite
 ```
+
+## Previewing the dashboard locally
+
+Build it, then serve it — opening the HTML directly with `file://` breaks the
+stylesheet, so use the little web server:
+
+```bash
+python3 -m src.build_site && python3 -m http.server 8765 --directory site
+```
+
+Then open http://localhost:8765. The `site/` directory is generated and
+git-ignored; CI rebuilds it from `data/` on every deploy.
 
 ## Running the tests
 
