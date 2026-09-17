@@ -1,0 +1,43 @@
+name: Change request
+description: Ask for something to be added or shown differently.
+title: "[Change]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For "can the dashboard also show X" — as opposed to "X is wrong",
+        which is a bug report.
+
+  - type: textarea
+    id: request
+    attributes:
+      label: What would you like to see?
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: What decision would it help you make?
+      description: >
+        The most useful field here. A metric with a decision attached to it
+        gets built the right way round.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which part of the dashboard?
+      options:
+        - Portfolio summary tiles
+        - Absorption chart
+        - Project table
+        - Suite model pricing
+        - Sales leaderboard
+        - Exposure premium
+        - A single project page
+        - Somewhere new
+    validations:
+      required: true
