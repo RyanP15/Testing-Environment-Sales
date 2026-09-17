@@ -34,7 +34,8 @@ lets you practise end to end.
 
 ## Why `main` is protected
 
-You cannot push to `main` in this repo. That is deliberate, and it is the
+You cannot push to `main` in this repo, and a pull request needs **one
+approving review** before it can merge. That is deliberate, and it is the
 single biggest difference between a practice repo and a real one.
 
 It means every change is forced through a pull request, which means every
