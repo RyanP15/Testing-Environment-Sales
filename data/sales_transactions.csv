@@ -1,0 +1,29 @@
+txn_id,unit_id,project_id,sale_date,list_price,sold_price,agent,brokerage,incentive_package,deposit_structure,status
+TXN-0001,GG-03-807,GG-03,2024-11-13,1330000,1330000,Priya Raman,In-House Presentation Centre,Assignment fee waived,5/5/5/5 on occupancy,firm
+TXN-0002,GG-04-3407,GG-04,2025-03-18,1331000,1317500,Danielle Wu,Harbourline Realty,Assignment fee waived,20% extended - 36 months,firm
+TXN-0003,GG-01-1708,GG-01,2025-04-10,824000,803500,Tomas Varga,Maple Crest Realty Inc.,None,10% in 90 days / 5% at 12mo / 5% on occupancy,firm
+TXN-0004,GG-04-708,GG-04,2025-05-23,1190000,1184000,Tomas Varga,Maple Crest Realty Inc.,Free parking + locker,20% extended - 36 months,firm
+TXN-0005,GG-06-4408,GG-06,2025-08-09,508000,508000,Aisha Noorani,Onyx Urban Realty,Assignment fee waived,5/5/5/5 on occupancy,firm
+TXN-0006,GG-01-2305,GG-01,2025-10-24,1140000,1140000,Ben Fitzgerald,Bayview Park Realty,Free parking + locker,20% extended - 36 months,firm
+TXN-0007,GG-02-2812,GG-02,2025-10-24,839000,839000,Danielle Wu,Harbourline Realty,Free locker,5/5/5/5 on occupancy,firm
+TXN-0008,GG-01-3809,GG-01,2025-10-31,1256000,1249500,Ben Fitzgerald,Bayview Park Realty,None,20% extended - 36 months,firm
+TXN-0009,GG-06-512,GG-06,2025-12-22,877000,877000,Danielle Wu,Harbourline Realty,None,20% extended - 36 months,firm
+TXN-0010,GG-08-1806,GG-08,2026-03-04,433000,433000,Priya Raman,In-House Presentation Centre,Capped development charges,20% extended - 36 months,firm
+TXN-0011,GG-04-1803,GG-04,2026-03-16,662000,655500,Sofia Marchetti,Harbourline Realty,Capped development charges,20% extended - 36 months,firm
+TXN-0012,GG-02-609,GG-02,2026-03-17,1132000,1132000,Tomas Varga,Maple Crest Realty Inc.,None,5/5/5/5 on occupancy,closed
+TXN-0013,GG-08-409,GG-08,2026-03-18,879000,879000,Marcus Oyelaran,In-House Presentation Centre,"$10,000 decor dollars",20% extended - 36 months,firm
+TXN-0014,GG-07-1010,GG-07,2026-04-25,1061000,1034500,Aisha Noorani,Onyx Urban Realty,"$10,000 decor dollars",5/5/5/5 on occupancy,closed
+TXN-0015,GG-02-3502,GG-02,2026-05-04,1004000,979000,Ben Fitzgerald,Bayview Park Realty,Free locker,20% extended - 36 months,firm
+TXN-0016,GG-02-2805,GG-02,2026-05-06,1233000,1227000,Marcus Oyelaran,In-House Presentation Centre,Capped development charges + free locker,20% extended - 36 months,closed
+TXN-0017,GG-05-3501,GG-05,2026-05-09,1176000,1176000,Kwame Asante,In-House Presentation Centre,None,10% in 90 days / 5% at 12mo / 5% on occupancy,firm
+TXN-0018,GG-01-506,GG-01,2026-05-20,965000,965000,Marcus Oyelaran,In-House Presentation Centre,None,20% extended - 36 months,firm
+TXN-0019,GG-07-1309,GG-07,2026-05-21,869000,869000,Aisha Noorani,Onyx Urban Realty,Free parking + locker,10% in 90 days / 5% at 12mo / 5% on occupancy,closed
+TXN-0020,GG-02-1511,GG-02,2026-06-22,1393000,1379000,Sofia Marchetti,Harbourline Realty,Free locker,20% extended - 36 months,firm
+TXN-0021,GG-05-3702,GG-05,2026-06-28,689000,682000,Tomas Varga,Maple Crest Realty Inc.,Free locker,5/5/5/5 on occupancy,firm
+TXN-0022,GG-06-4002,GG-06,2026-07-08,1094000,1088500,Danielle Wu,Harbourline Realty,Capped development charges,10% in 90 days / 5% at 12mo / 5% on occupancy,firm
+TXN-0023,GG-03-404,GG-03,2026-07-10,1406000,1392000,Marcus Oyelaran,In-House Presentation Centre,None,20% extended - 36 months,firm
+TXN-0024,GG-08-1706,GG-08,2026-07-11,657000,657000,Danielle Wu,Harbourline Realty,"$10,000 decor dollars",10% in 90 days / 5% at 12mo / 5% on occupancy,closed
+TXN-0025,GG-08-1608,GG-08,2026-07-31,474000,467000,Danielle Wu,Harbourline Realty,Free locker,20% extended - 36 months,firm
+TXN-0026,GG-01-3512,GG-01,2026-08-12,539000,539000,Ben Fitzgerald,Bayview Park Realty,Capped development charges + free locker,10% in 90 days / 5% at 12mo / 5% on occupancy,closed
+TXN-0027,GG-06-4506,GG-06,2026-08-17,500000,500000,Danielle Wu,Harbourline Realty,Free locker,10% in 90 days / 5% at 12mo / 5% on occupancy,firm
+TXN-0028,GG-07-1208,GG-07,2026-08-20,574000,571000,Kwame Asante,In-House Presentation Centre,Capped development charges,10% in 90 days / 5% at 12mo / 5% on occupancy,firm

@@ -1,0 +1,6 @@
+# Runtime needs nothing beyond the Python 3 standard library.
+# These are optional developer conveniences:
+#
+#   pip3 install -r requirements.txt
+#
+pytest>=7.0

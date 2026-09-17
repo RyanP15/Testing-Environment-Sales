@@ -1,0 +1,9 @@
+project_id,project_name,municipality,neighbourhood,storeys,total_units,launch_date,occupancy_target
+GG-01,Lakeshore Vista,Toronto,Humber Bay Shores,42,410,2025-03-14,2029 Q2
+GG-02,Eglinton Rise,Toronto,Yonge & Eglinton,38,356,2025-06-02,2029 Q4
+GG-03,Liberty Junction,Toronto,Liberty Village,26,288,2024-09-21,2028 Q3
+GG-04,North Yards,Toronto,North York Centre,45,468,2025-01-27,2029 Q1
+GG-05,VMC Union,Vaughan,Vaughan Metropolitan Centre,55,590,2025-08-11,2030 Q1
+GG-06,Square One Heights,Mississauga,City Centre,48,512,2024-11-04,2028 Q4
+GG-07,Danforth Line,Toronto,Danforth Village,18,172,2026-02-09,2030 Q2
+GG-08,Pickering Bay,Pickering,City Centre,32,298,2025-10-20,2029 Q3
